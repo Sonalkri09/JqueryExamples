@@ -23,8 +23,7 @@ function showDivs(n) {
 }
 
 
-$(document).ready(function(){
-   
+$(document).ready(function(){   
     showDivs(slideIndex);
     $(".left").on("click", function(){
         plusDivs(-1);
@@ -37,5 +36,4 @@ $(document).ready(function(){
       index++;
       currentDiv(index);
    });
-
 });
