@@ -1,0 +1,82 @@
+.bucket{
+	min-height: 4.5em;
+	height: auto;
+	background: #f1f1f1;
+	border: 2px solid black;
+	margin: 10px;
+	position: relative;
+}
+.header{
+	position: relative;
+	height: 1.5em;
+	background: black;
+	text-align: center;
+}
+h1{
+	font-size: 25px;
+	padding: 1em;
+}
+h3{
+	position: absolute;
+	display: inline-block;
+	color: white;
+	top:50%;
+	transform: translateY(-50%);	
+}
+.plus{
+	position: absolute;
+	background: black;
+	border: 1px solid white;
+	color: white;
+	width: 1em;
+	height: 1em;
+	padding: 0.05em;
+	text-align: center;
+	font-weight: bold;
+	top: 50%;
+	left: 2px;
+	transform: translateY(-50%);
+}
+.plus:after{
+	content: ' \002B';
+}
+.minus{
+	position: absolute;
+	background: black;
+	border: 1px solid white;
+	color: white;
+	width: 1em;
+	height: 1em;
+	padding: 0.05em;
+	text-align: center;
+	font-weight: bold;
+	top: 50%;
+	right: 2px;
+	transform: translateY(-50%);
+}
+.minus:after {
+    content: ' \002D';
+}
+li{
+	width: 2em;
+	height: 2em;
+	margin: 5px;
+	border: 2px solid black;
+	display: inline-block;
+}
+li:after{
+	content: "\21E9";
+	color: white;
+	font-size: 25px;
+	padding-left: 9px;
+	padding-top: 3px;
+	opacity: 0;
+	-webkit-transition: opacity 1s; /* Safari */
+    transition: opacity 1s;
+}
+
+li:hover::after{
+	cursor: pointer;
+	opacity: 1;
+}
+

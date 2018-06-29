@@ -1,0 +1,106 @@
+.container{
+	width: 100%;
+	
+}
+.mySlides{
+	width: 100%;
+	position: relative;
+}
+.row{
+	position:relative;
+	text-align: center;
+}
+.select{
+	position: absolute;
+	bottom: 0;
+	top: 50%;
+}
+/*For left and right slide button */
+.left{
+	cursor: pointer;
+	float: left;
+	width: 2em;
+    height: 2em;
+    border-left: 0.2em solid #D3D3D3;
+    border-top: 0.2em solid #D3D3D3;
+    transform: rotate(-45deg);
+	margin-left: 1em;
+	transition: 0.4s ease;
+}
+.right{
+	cursor: pointer;
+	float: right;
+	width: 2em;
+    height: 2em;
+    border-right: 0.2em solid #D3D3D3;
+    border-top: 0.2em solid #D3D3D3;
+    transform: rotate(45deg);
+    margin-right: 1em;
+    transition: 0.4s ease;
+}
+/* for text in slides*/
+.label{
+	position: absolute;
+	top: 0;
+	padding-left: 9px;
+	padding-right: 9px;
+	padding-top: 16px!important;
+    padding-bottom: 16px!important;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+}
+/*for circles at the bottom of slides */
+.badge {
+	position: relative;
+	margin-top: 23%;
+	height: 13px;
+	width: 13px;
+	background-color: transparent!important;
+	cursor: pointer;
+	border: 1px solid #ccc!important;
+	border-radius: 50%;
+	color: #fff;
+	display: inline-block;
+}
+.active , .badge:hover{
+   background-color: black!important;
+}
+img{
+	max-width: 100%;
+    height: auto !important;
+}
+/* Fading Animation*/
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.0s;
+  animation-name: fade;
+  animation-duration: 1.0s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .7} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .7} 
+  to {opacity: 1}
+}
+/* On mobile change the slides */
+@media screen and (max-width: 600px) {
+   .label{
+	position: inherit;
+	top: 0;
+	padding-left: 9px;
+	padding-right: 9px;
+	padding-top: 16px!important;
+    padding-bottom: 16px!important;
+	background-color: #87ceeb;
+	color: black;
+	font-size: 20px;
+	}
+	.badge{
+		margin-top: 200px;
+	}
+}
