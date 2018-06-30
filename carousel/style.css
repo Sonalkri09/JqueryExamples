@@ -1,4 +1,7 @@
-
+.container{
+	width: 70%;
+	margin: 5px auto;
+}
 .row{
 	position:relative;
 }
@@ -7,7 +10,7 @@
 .left{
 	position: absolute;
 	top: 50%;
-	left:1em;
+	left:2em;
 	cursor: pointer;
 	width: 2em;
     height: 2em;
@@ -18,7 +21,7 @@
 .right{
 	position: absolute;
 	top: 50%;
-	right: 1em;
+	right: 2em;
 	cursor: pointer;
 	width: 2em;
     height: 2em;
@@ -87,7 +90,7 @@ img{
 	padding-left: 9px;
 	padding-right: 9px;
 	padding-top: 16px!important;
-    padding-bottom: 16px!important;
+    padding-bottom: 45px!important;
 	background-color: #87ceeb;
 	color: black;
 	font-size: 20px;
