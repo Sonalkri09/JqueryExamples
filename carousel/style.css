@@ -1,5 +1,6 @@
 .container{
-	text-align: center;
+	width: 70%;
+	margin: 5px auto;
 }
 .row{
 	width: 68%;
@@ -92,7 +93,7 @@ img{
 	padding-left: 9px;
 	padding-right: 9px;
 	padding-top: 16px!important;
-    padding-bottom: 40px!important;
+    padding-bottom: 45px!important;
 	background-color: #87ceeb;
 	color: black;
 	font-size: 20px;
