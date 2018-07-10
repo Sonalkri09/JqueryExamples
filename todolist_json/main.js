@@ -1,46 +1,56 @@
-//var fs = require('fs');
 $(document).ready(function() {
-	$("#btn").click(function(e){
-        // var dataGroup = [];
-	//var formData = JSON.stringify($("#myForm").serializeArray());
-	// console.log(formData);
-   var posting = $.post( "db.json", $( "#myForm" ).serialize() );
-     
-console.log(posting);
+  setInterval('updateEvent()', 1000);
+     $('#btn').click(function() {
+            $.ajax({
+            type: "POST",
+            url: "http://localhost:3000/menu",
+            dataType: "json",
+            data: {
+                "value":$("#event").val()
+            },
+            success: function (data) {
+               alert('Success');
 
-    
+            },
+            error: function () {
+             alert('Error');
+            }
+        });
+          $("#event").val("");
+      });
+ });
+var j=0
+function updateEvent(){
+  $.ajax({
+          url: 'http://localhost:3000/db',
+          data: {
+             format: 'json'
+          },
+          error: function() {
+            $('.res').html('<p>An error has occurred</p>');
+          },
+          dataType: 'jsonp',
+          success: function(data) {
+            for(; j<data.menu.length;j++){
+            var newHTML = '<div class="selected" id="'+data.menu[j].id+'"><span>'+data.menu[j].value+'</span><button type="button" class="delete" id="minusButton">x</button><hr></div>';
+            $('.res').append(newHTML);
+          }
+        },
+          type: 'GET'
+       });
+}
 
-	})
-});
-/* var dataGroup = [];
- var i=0;
-$(function () { 
-    $(document).on('click', '#btn', function (e) {
-       
-        $('#event').each(function () {
-            var emailData = {};
-            
-                emailData[$(this).data('name')] = $(this).val();
-                console.log(emailData);
-            
-            dataGroup.push(emailData);
-        });     
-                
-                var newHTML = '<div class="selected"><span>'+dataGroup[i].event+'</span><button type="button" class="delete" id="minusButton">x</button><hr></div>';
-                //console.log(newHTML+'hkjck');
-                $(".res").append( newHTML );
-                i++;
-
-                var output = JSON.stringify(dataGroup);
-                console.log(output);
-
+$(document).on('click','.delete', function() {
+  var $id = $(this).closest('.selected').attr('id');
+    $.ajax({
+        url: 'http://localhost:3000/menu/' + $id,
+        data: {
+             format: 'json'
+        },
+        type: 'DELETE',
+        success: function(data) {
+            updateEvent();
+        }
     });
-
-})
-$(document).on('click','.delete', function(e) {
-   $(this).closest('.selected').remove();//remove
-    //--i;
-    console.log('removed');
+    $(this).closest('.selected').remove();
 });
-*/
-

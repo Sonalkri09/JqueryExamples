@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Country</title>
+	<link type="text/css" rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<h1>COUNTRY'S FLAG</h1>
+			<div class="clock">
+			</div><br>
+			<div class="date">
+			</div>
+			<ol>
+				<li id="INDIA" class="country"><img src="images/india.jpg" width="100%"></li>
+				<li id="UNITED STATES OF AMERICA" class="country"><img src="images/usa.jpg" width="100%"></li>
+				<li id="EUROPEAN UNION" class="country"><img src="images/eu.jpg" width="100%"></li>
+				<li id="CHINA" class="country"><img src="images/china.jpg" width="100%"></li>
+				<li id="AUSTRALIA" class="country"><img src="images/australia.jpg" width="100%"></li>
+			</ol>
+			<textarea placeholder="Hover on The Flag"></textarea>
+		</div>
+		
+		<div class="ui-widget">
+		  <label for="search">Countries: </label>
+		  <input id="search">
+		</div>
+		<div id="map"></div>
+		</div>
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	  	<script type="text/javascript" src="main.js"></script>
+	  	<script>
+	      var map;
+	      function initMap() {
+	        map = new google.maps.Map(document.getElementById('map'), {
+	          center: {lat: -34.397, lng: 150.644},
+	          zoom: 8
+	        });
+	      }
+	    </script>
+	  	<script
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGGC7cnBf06Ak5uQ0VOPLCbwJBBnnMj3w&callback=initMap" async defer>
+		</script>
+	
+</body>
+</html>
