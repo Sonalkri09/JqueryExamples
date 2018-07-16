@@ -1,0 +1,178 @@
+{
+	"carters":[
+	{
+	"lookbook_image_url": "https://s3.amazonaws.com/ampersand.production/collage_images/outfit_collage_image/245049/lookbook.png",
+	"tags": [
+	"baby_boy"
+	],
+	"large_image_url": "https://s3.amazonaws.com/ampersand.production/collage_images/outfit_collage_image/245049/original.png",
+	"transparent_image_url": "https://s3.amazonaws.com/ampersand.production/collage_images/outfit_collage_image/245049/transparent.png",
+	"username": "carters",
+	"session_id": "d25a8f93-19bb-4a1b-8ec8-6cca8be723e9",
+	"impression_id": "d25a8f93-19bb-4a1b-8ec8-6cca8be723e9",
+	"image_url": "https://s3.amazonaws.com/ampersand.production/collage_images/outfit_collage_image/245049/lookbook.png",
+	"id": 245049,
+	"account_username": "carters_baby_boy",
+	"items": [
+		{
+		"category": "Tops",
+		"large_image_url": "https://s3.amazonaws.com/ampersand.production/items/429697/large.png",
+		"small_image_url": "https://s3.amazonaws.com/ampersand.production/items/429697/small.png",
+		"item_id": 429697,
+		"name": "fox french terry pullover",
+		"affiliate_link": "https://www.carters.com/s/Carters/carters-baby-boy-tops/889338887091.html",
+		"parent_sku": "V_225H631",
+		"image_url": "https://s3.amazonaws.com/ampersand.production/items/429697/small.png",
+		"brand": "Carter's",
+		"region": null,
+		"style": "sweatshirtsandpullovers",
+		"remote_id": "225H631",
+		"sku": "V_225H631",
+		"sale_price": null,
+		"retailer_style": null,
+		"client_original_image_url": "https://production-direct-carters.demandware.net/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dwf0c15d92/productimages/243H874.jpg?sw=470",
+		"account_username": "carters_baby_boy",
+		"retailer": null,
+		"price": 24
+		},
+		{
+		"category": "Bottoms",
+		"large_image_url": "https://s3.amazonaws.com/ampersand.production/items/429787/large.png",
+		"small_image_url": "https://s3.amazonaws.com/ampersand.production/items/429787/small.png",
+		"item_id": 429787,
+		"name": "everyday pull-on pants",
+		"affiliate_link": "https://www.carters.com/s/Carters/carters-baby-boy-bottoms/889338769670.html",
+		"parent_sku": "V_224G701",
+		"image_url": "https://s3.amazonaws.com/ampersand.production/items/429787/small.png",
+		"brand": "Carter's",
+		"region": null,
+		"style": "Pants",
+		"remote_id": "224G701",
+		"sku": "V_224G701",
+		"sale_price": null,
+		"retailer_style": null,
+		"client_original_image_url": "https://production-direct-carters.demandware.net/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw2fc32bd0/productimages/248G870.jpg?sw=470",
+		"account_username": "carters_baby_boy",
+		"retailer": null,
+		"price": 24
+		}
+	]
+	},
+	{
+	"lookbook_image_url": "https://s3.amazonaws.com/ampersand.production/collage_images/outfit_collage_image/245078/lookbook.png",
+	"tags": [
+	"baby_boy"
+	],
+	"large_image_url": "https://s3.amazonaws.com/ampersand.production/collage_images/outfit_collage_image/245078/original.png",
+	"transparent_image_url": "https://s3.amazonaws.com/ampersand.production/collage_images/outfit_collage_image/245078/transparent.png",
+	"username": "carters",
+	"session_id": "d25a8f93-19bb-4a1b-8ec8-6cca8be723e9",
+	"impression_id": "d25a8f93-19bb-4a1b-8ec8-6cca8be723e9",
+	"image_url": "https://s3.amazonaws.com/ampersand.production/collage_images/outfit_collage_image/245078/lookbook.png",
+	"id": 245078,
+	"account_username": "carters_baby_boy",
+	"items": [
+		{
+		"category": "Tops",
+		"large_image_url": "https://s3.amazonaws.com/ampersand.production/items/429973/large.png",
+		"small_image_url": "https://s3.amazonaws.com/ampersand.production/items/429973/small.png",
+		"item_id": 429973,
+		"name": "hero jersey tee",
+		"affiliate_link": "https://www.carters.com/s/Carters/190796325569.html",
+		"parent_sku": "V_225H493",
+		"image_url": "https://s3.amazonaws.com/ampersand.production/items/429973/small.png",
+		"brand": "Carter's",
+		"region": null,
+		"style": "LongSleeveTees",
+		"remote_id": "225H493",
+		"sku": "V_225H493",
+		"sale_price": null,
+		"retailer_style": null,
+		"client_original_image_url": "https://production-direct-carters.demandware.net/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dwf9c9b508/productimages/243H716.jpg?sw=470",
+		"account_username": "carters_baby_boy",
+		"retailer": null,
+		"price": 14
+		},
+		{
+		"category": "Bottoms",
+		"large_image_url": "https://s3.amazonaws.com/ampersand.production/items/429498/large.png",
+		"small_image_url": "https://s3.amazonaws.com/ampersand.production/items/429498/small.png",
+		"item_id": 429498,
+		"name": "easy pull-on dinosaur shorts",
+		"affiliate_link": "https://www.carters.com/s/Carters/carters-baby-boy-bottoms/889338762732.html",
+		"parent_sku": "V_224G677",
+		"image_url": "https://s3.amazonaws.com/ampersand.production/items/429498/small.png",
+		"brand": "Carter's",
+		"region": null,
+		"style": "Shorts",
+		"remote_id": "224G677",
+		"sku": "V_224G677",
+		"sale_price": null,
+		"retailer_style": null,
+		"client_original_image_url": "https://production-direct-carters.demandware.net/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dwf23147a2/productimages/248G845.jpg?sw=470",
+		"account_username": "carters_baby_boy",
+		"retailer": null,
+		"price": 22
+		}
+	]
+	},
+	{
+	"lookbook_image_url": "https://s3.amazonaws.com/ampersand.production/collage_images/outfit_collage_image/243493/lookbook.png",
+	"tags": [
+	"baby_boy"
+	],
+	"large_image_url": "https://s3.amazonaws.com/ampersand.production/collage_images/outfit_collage_image/243493/original.png",
+	"transparent_image_url": "https://s3.amazonaws.com/ampersand.production/collage_images/outfit_collage_image/243493/transparent.png",
+	"username": "carters",
+	"session_id": "d25a8f93-19bb-4a1b-8ec8-6cca8be723e9",
+	"impression_id": "d25a8f93-19bb-4a1b-8ec8-6cca8be723e9",
+	"image_url": "https://s3.amazonaws.com/ampersand.production/collage_images/outfit_collage_image/243493/lookbook.png",
+	"id": 243493,
+	"account_username": "carters_baby_boy",
+	"items": [
+		{
+		"category": "Bottoms",
+		"large_image_url": "https://s3.amazonaws.com/ampersand.production/items/429186/large.png",
+		"small_image_url": "https://s3.amazonaws.com/ampersand.production/items/429186/small.png",
+		"item_id": 429186,
+		"name": "flat-front twill shorts",
+		"affiliate_link": "https://www.carters.com/s/Carters/carters-baby-boy-bottoms/192135106242.html",
+		"parent_sku": "V_224G759",
+		"image_url": "https://s3.amazonaws.com/ampersand.production/items/429186/small.png",
+		"brand": "Carter's",
+		"region": null,
+		"style": "Shorts",
+		"remote_id": "224G759",
+		"sku": "V_224G759",
+		"sale_price": null,
+		"retailer_style": null,
+		"client_original_image_url": "https://production-direct-carters.demandware.net/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw9bcf13ff/productimages/248G934.jpg?sw=470",
+		"account_username": "carters_baby_boy",
+		"retailer": null,
+		"price": 22
+		},
+		{
+		"category": "Tops",
+		"large_image_url": "https://s3.amazonaws.com/ampersand.production/items/429973/large.png",
+		"small_image_url": "https://s3.amazonaws.com/ampersand.production/items/429973/small.png",
+		"item_id": 429973,
+		"name": "hero jersey tee",
+		"affiliate_link": "https://www.carters.com/s/Carters/190796325569.html",
+		"parent_sku": "V_225H493",
+		"image_url": "https://s3.amazonaws.com/ampersand.production/items/429973/small.png",
+		"brand": "Carter's",
+		"region": null,
+		"style": "LongSleeveTees",
+		"remote_id": "225H493",
+		"sku": "V_225H493",
+		"sale_price": null,
+		"retailer_style": null,
+		"client_original_image_url": "https://production-direct-carters.demandware.net/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dwf9c9b508/productimages/243H716.jpg?sw=470",
+		"account_username": "carters_baby_boy",
+		"retailer": null,
+		"price": 14
+		}
+	]
+	}
+]
+}
