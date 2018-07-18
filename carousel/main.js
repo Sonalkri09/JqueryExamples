@@ -1,6 +1,3 @@
-/*var slideIndex = 1;
-showDivs(slideIndex);*/
-
 var slideIndex = 1;
 function plusDivs(n) {
   showDivs(slideIndex += n);
@@ -27,9 +24,6 @@ function showDivs(n) {
 
 
 $(document).ready(function(){
-
-    
-   
     showDivs(slideIndex);
     $(".left").on("click", function(){
         plusDivs(-1);
@@ -39,13 +33,7 @@ $(document).ready(function(){
     });
      $(".badge").click(function(){
       var index = $(".badge").index(this);
-       
-      // alert("badge  "+index);
-       index++;
-       currentDiv(index);
+      index++;
+      currentDiv(index);
    });
-    /*setInterval(function() {
-      $('.mySlides').animate({'margin-left':'100%'},1000);
-    },3000);*/
-
 });

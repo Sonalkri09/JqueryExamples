@@ -59,13 +59,12 @@ body {
     -webkit-text-size-adjust: none;
 }
 .product-image-container{
-	height:2057px;
+	/*height:2057px;*/
 	width:23%;
 	position: relative;
 	float:left;
 	margin: 20px;
 	box-sizing: border-box;
-	/*background-color: red;*/
 }
 .product-primary-image{
 	border: 1px solid #d7d7d7;
@@ -90,4 +89,32 @@ img{
     margin-bottom: 33px;
     padding-bottom: 33px;
     overflow: hidden;
+}
+.product-set-image{
+	float: left;
+    width: 20%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin: auto;
+}
+.add-to-hearting{
+	position:static;
+	cursor:pointer;
+	display:inline-block;
+	z-index: 500;
+	padding: 1px;
+}
+.add-to-heart{
+	border:none;
+    width:25px;
+	height:25px;
+	background: url(https://www.carters.com/on/demandware.static/Sites-Carters-Site/-/default/v1528743962165/images/mobileSprite.svg) -268px -71px no-repeat;
+}
+.sticky-wrapper{
+	position:fixed;
+	width:inherit;
+}
+.main{
+	background: url(https://www.carters.com/on/demandware.static/Sites-Carters-Site/-/default/v1528743962165/images/mobileSprite.svg) -222px -71px no-repeat;
 }
