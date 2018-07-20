@@ -58,6 +58,20 @@ body {
     color: #444;
     -webkit-text-size-adjust: none;
 }
+.header{
+	width: 100%;
+	position: fixed;
+    top: 0;
+    padding: 16px;
+    background-color: white;
+    text-align: center;
+}
+h1{
+	
+	font-size: 32px;
+	font-weight: bold;
+	
+}
 .product-image-container{
 	/*height:2057px;*/
 	width:23%;
