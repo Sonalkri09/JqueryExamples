@@ -6,10 +6,9 @@ $(document).ready(function() {
 		dialog.dialog("open");
 	});
 
-	dialog = $("#dialog-form").dialog({
+
+	dialog = $(".toggler").dialog({
 		autoOpen: false,
-		height:400,
-		width: 350,
 		modal: true,
 		buttons: {
 			"Track": googlemap,
@@ -19,8 +18,16 @@ $(document).ready(function() {
 		},
 		close: function() {
 			form[0].reset();
-			allFields.removeClass("ui-state-error");
-		}
+			//allFields.removeClass("ui-state-error");
+		},
+		show: {
+        effect: "slide",
+        duration: 900
+      },
+      hide: {
+        effect: "blind",
+        duration: 900
+      }
 	});
 	form = dialog.find("form").on("submit", function(event){
 		event.preventDefault();
