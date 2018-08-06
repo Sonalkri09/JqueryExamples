@@ -6,6 +6,12 @@ $(document).ready(function() {
 		dialog.dialog("open");
 	});
 
+    $("#call").on('click', function() {
+        var link = "tel:18003334444";
+        window.location.href = link;
+    });
+
+
 
 	dialog = $(".toggler").dialog({
 		autoOpen: false,
