@@ -1,3 +1,16 @@
 {
-  "menu": []
+  "menu": [
+    {
+      "value": "learning",
+      "id": 1
+    },
+    {
+      "value": "travelling",
+      "id": 2
+    },
+    {
+      "value": "hors",
+      "id": 3
+    }
+  ]
 }

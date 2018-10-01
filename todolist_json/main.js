@@ -53,4 +53,16 @@ $(document).on('click','.delete', function() {
         }
     });
     $(this).closest('.selected').remove();
+
+
+  var todolist = ["Travelling","Horse Riding","Playing","Studying","Coding","Reading","Learning"];
+
+  $("#event").autocomplete({
+    source: function( request, response ) {
+          var matcher = new RegExp( "^" + $.ui.autocomplete.escapeRegex( request.term ), "i" );
+          response( $.grep( todolist, function( item ){
+              return matcher.test( item );
+          }) );
+      }
+   });
 });

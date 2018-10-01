@@ -17,21 +17,21 @@
 				<label for="zipcode">Zipcode</label>
 				<input type="text" name="zipcode" id="zipcode" value="834005" class="text ui-widget-content ui-corner-all">
 				<input type="submit" tabindex="-1" class="btn">
+				
 			</fieldset>
 		</form>
+		<div id="map"></div>
 	</div>
 </div>
 
 	<button id="loc">Location Tracker</button>
 	<button id="call">Call</button>
-	<script type="text/javascript">
-		$("#call").on('click', function() {
-	        var link = "tel:18003334444";
-	        window.location.href = link;
-    	});
-	</script>
+	
 	<script src="https:////cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script type="text/javascript" src="main.js"></script>
+	  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	  <script type="text/javascript" src="main.js"></script>
+	  <script
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGGC7cnBf06Ak5uQ0VOPLCbwJBBnnMj3w&callback=initMap" async defer>
+		</script>
 </body>
 </html>
